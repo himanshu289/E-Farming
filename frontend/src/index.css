@@ -1,0 +1,89 @@
+main {
+    min-height: 80vh;
+    background-color: #def8d9;
+}
+
+h1 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+
+h2 {
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
+}
+
+h3 {
+    padding: 1rem 0;
+}
+
+.rating span {
+    margin: 0.1rem;
+}
+
+.btn-green {
+    color: #fff;
+    background-color: #176b25;
+    border-color: #176b25
+}
+
+.btn-green:hover {
+    color: #fff;
+    background-color: #209534;
+    border-color: #26b13d
+}
+
+.btn-green:focus,
+.btn-green.focus {
+    color: #fff;
+    background-color: #209534;
+    border-color: #26b13d;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(102, 201, 136, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(102, 201, 136, 0.5)
+}
+
+.btn-green.disabled,
+.btn-green:disabled {
+    color: #fff;
+    background-color: #176b25;
+    border-color: #176b25
+}
+
+.btn-green:not(:disabled):not(.disabled):active,
+.btn-green:not(:disabled):not(.disabled).active,
+.show>.btn-green.dropdown-toggle {
+    color: #fff;
+    background-color: #209534;
+    border-color: #26b13d;
+}
+
+.btn-green:not(:disabled):not(.disabled):active:focus,
+.btn-green:not(:disabled):not(.disabled).active:focus,
+.show>.btn-green.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(102, 201, 136, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(102, 201, 136, 0.5)
+}
+
+.farmer-img {
+    width: 100%;
+    height: 25vh;
+    object-fit: contain;
+}
+
+.product-img-table-row {
+    height: 10vh;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+.farmer-img-cart-item {
+    width: 100%;
+    height: 10vh;
+    object-fit: contain;
+}
+
+.product-img-cart-item {
+    width: 100%;
+    height: 10vh;
+    object-fit: contain;
+}
